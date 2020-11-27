@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>turtle</title>
+    <style>
+        body{
+            background-color: black;
+            overflow: hidden;
+        }
+
+        #box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100vw;
+            animation: Rotate 4s  linear infinite ;
+            animation-direction: reverse;
+
+        }
+
+        @keyframes Rotate {
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="box" class="box">
+        <!-- <img src="turtle1.1.PNG" alt="" srcset=""> -->
+        <img src="turtle2.png" alt="" srcset="">
+    </div>
+</body>
+</html>
